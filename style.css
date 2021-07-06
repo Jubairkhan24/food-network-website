@@ -1,19 +1,40 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1 {
     font-size: 50px;
+    color: grey;
+}
+h3 {
+    font-size: 30px;
+    color: grey;
+}
+h4 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
 }
 .orange-color {
     color: orange;
 }
+
 .half-section {
     width: 50%;
     margin-left: 5%;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.half-section p {
+    margin-bottom: 40px;
 }
 .double-box {
     display: flex;
+}
+.triple-box {
+    display: flex;
+    margin-bottom: 150px;
 }
 /* top section button style */
 .button-style {
@@ -23,6 +44,113 @@ h1 {
     color: white;
     border-radius: 15px;
 }
-.half-section img {
-    width: 80%;
+.img-size {
+    width: 70%;
+    margin-left: 70px;
 }
+.bg-banner {
+background-image: url("images/Frame 59.jpg");
+background-repeat: no-repeat;
+width: 100%;
+}
+.comment-bg {
+    background-image: url("images/Frame 58.jpg");
+}
+.resize-img {
+    padding: 30px 50px;
+}
+.resize-content {
+    padding: 70px; 
+    margin-right: 80px;
+
+}
+.resize-content p {
+    margin-bottom: 100px;
+}
+.recipe-section {
+    text-align: center;
+}
+.para-style {
+    margin: 58px;
+    width: 39%;
+    /* justify-content: center; */
+    padding-left: 391px;
+}
+.img-resize {
+    width: 72%;
+    background-size: cover;
+    padding-top: 35px;
+    border-radius: 20px 20px;
+    align-items: center;   
+}
+.one-third-width {
+    width: 25%;
+    margin-left: 5%;
+    border-radius: 15px;
+    height: 476px;
+    box-shadow: 2px 2px 10px rgb(228, 222, 222);
+}
+.box-content {
+    margin: 15px;
+}
+.follower-box {
+    display: flex;
+    height: 130px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgb(228 222 222);
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+.follower-box {
+    display: flex;
+    height: 190px;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.follower-box-des {
+    width: 30%;
+    text-align: center;
+}
+.follower-box-des h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+footer {
+    background-color: rgb(4, 4, 17);
+    height: 170px;
+}
+footer small {
+    color: white;
+}
+.footer-items {
+    text-align: center;
+    padding: 1px;
+}
+.comment-box {
+    width: 80%;
+    box-shadow: 2px 2px 10px rgb(228 222 222);
+    margin: 25px;
+    padding: 8px;
+}
+.comment-heading-title {
+    margin-top: 180px; 
+}
+.comment-heading-title p{
+    width: 70%;
+}
+.comment-heading-title h1{
+    width: 70%;
+}
+.comment-resize {
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+.customer-detail {
+    font-size: 15px;
+    color: olive;
+}
+
+
+    
